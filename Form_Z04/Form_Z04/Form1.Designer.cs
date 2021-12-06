@@ -77,6 +77,7 @@ namespace Form_Z04
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::Form_Z04.Properties.Resources.Fync;
             this.pictureBox1.ImageLocation = "C:\\Users\\Dmitryi Gick\\source\\repos\\Form_Z04\\Fync.png";
             this.pictureBox1.Location = new System.Drawing.Point(67, 42);
             this.pictureBox1.Name = "pictureBox1";
