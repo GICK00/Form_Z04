@@ -51,32 +51,5 @@ namespace Form_Z04_2
             Array.Reverse(arr);
             return new string(arr);
         }
-        // Do not include if not ZXC!
-        private void checkBoxKeK_CheckedChanged(object sender, EventArgs e)
-        {
-            var soundPlayer = new SoundPlayer(@"C:\Users\Dmitryi Gick\source\repos\Form_Z04_2\zxc.wav");
-            if (checkBoxKeK.Checked == true)
-            {
-                pictureBoxZXC.Visible = true;
-                pictureBoxZXC1.Visible = true;
-                textBoxZXC.Visible = true;
-                soundPlayer.Play();
-
-                int i = 1000;
-                while (i > 0)
-                {
-                    textBoxZXC.Text = textBoxZXC.Text + i.ToString() + "-7\r\n ";
-                    i = i - 7;
-                }
-                textBoxResult.Text = "Поздравляю! Вы стали Дед Инсайдом!";
-            }
-            else
-            {
-                textBoxZXC.Visible = false;
-                pictureBoxZXC.Visible = false;
-                pictureBoxZXC1.Visible = false;
-                soundPlayer.Stop();
-            }
-        }
     }
 }

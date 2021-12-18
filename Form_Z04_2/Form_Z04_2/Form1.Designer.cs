@@ -29,7 +29,6 @@ namespace Form_Z04_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBoxZXC = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxNumber = new System.Windows.Forms.TextBox();
@@ -37,25 +36,7 @@ namespace Form_Z04_2
             this.textBoxResult = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.checkBoxKeK = new System.Windows.Forms.CheckBox();
-            this.pictureBoxZXC = new System.Windows.Forms.PictureBox();
-            this.pictureBoxZXC1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZXC)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZXC1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBoxZXC
-            // 
-            this.textBoxZXC.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxZXC.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxZXC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxZXC.Location = new System.Drawing.Point(9, 4);
-            this.textBoxZXC.Multiline = true;
-            this.textBoxZXC.Name = "textBoxZXC";
-            this.textBoxZXC.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxZXC.Size = new System.Drawing.Size(308, 153);
-            this.textBoxZXC.TabIndex = 10;
-            this.textBoxZXC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxZXC.Visible = false;
             // 
             // label1
             // 
@@ -123,40 +104,12 @@ namespace Form_Z04_2
             this.checkBoxKeK.TabIndex = 6;
             this.checkBoxKeK.Text = "ZXC";
             this.checkBoxKeK.UseVisualStyleBackColor = true;
-            this.checkBoxKeK.CheckedChanged += new System.EventHandler(this.checkBoxKeK_CheckedChanged);
-            // 
-            // pictureBoxZXC
-            // 
-            this.pictureBoxZXC.ImageLocation = "C:\\Users\\Dmitryi Gick\\source\\repos\\Form_Z04_2\\zxc-cat.gif";
-            this.pictureBoxZXC.Location = new System.Drawing.Point(13, 23);
-            this.pictureBoxZXC.Name = "pictureBoxZXC";
-            this.pictureBoxZXC.Size = new System.Drawing.Size(96, 118);
-            this.pictureBoxZXC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxZXC.TabIndex = 11;
-            this.pictureBoxZXC.TabStop = false;
-            this.pictureBoxZXC.Visible = false;
-            this.pictureBoxZXC.WaitOnLoad = true;
-            // 
-            // pictureBoxZXC1
-            // 
-            this.pictureBoxZXC1.ImageLocation = "C:\\Users\\Dmitryi Gick\\source\\repos\\Form_Z04_2\\zxc-cat.gif";
-            this.pictureBoxZXC1.Location = new System.Drawing.Point(200, 23);
-            this.pictureBoxZXC1.Name = "pictureBoxZXC1";
-            this.pictureBoxZXC1.Size = new System.Drawing.Size(96, 118);
-            this.pictureBoxZXC1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxZXC1.TabIndex = 12;
-            this.pictureBoxZXC1.TabStop = false;
-            this.pictureBoxZXC1.Visible = false;
-            this.pictureBoxZXC1.WaitOnLoad = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(325, 181);
-            this.Controls.Add(this.pictureBoxZXC1);
-            this.Controls.Add(this.pictureBoxZXC);
-            this.Controls.Add(this.textBoxZXC);
             this.Controls.Add(this.checkBoxKeK);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxResult);
@@ -167,16 +120,12 @@ namespace Form_Z04_2
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Form Z04.2";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZXC)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZXC1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBoxZXC;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxNumber;
@@ -184,8 +133,6 @@ namespace Form_Z04_2
         private System.Windows.Forms.TextBox textBoxResult;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox checkBoxKeK;
-        private System.Windows.Forms.PictureBox pictureBoxZXC;
-        private System.Windows.Forms.PictureBox pictureBoxZXC1;
     }
 }
 
